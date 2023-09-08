@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AquaFaom</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
 <body>
@@ -16,9 +17,9 @@
             <div class="navbar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#about1">About</a></li>
+                    <li><a href="#heading">Products</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -29,9 +30,10 @@
                     Elevate Your Kitchen & <br>Bath Experience
                 </h1>
                 <p>
-                    Discover exquisite kitchen and bath fittings that blend timeless elegance with unmatched
-                    functionality. <br>Experience superior craftsmanship and exceptional quality that will elevate your
-                    daily routines to new heights.
+                    Discover exquisite kitchen and bath fittings that blend timeless elegance with
+                    <br> unmatched functionality.
+                    <br>Experience superior craftsmanship and exceptional quality that will elevate
+                    <br>your daily routines to new heights.
                 </p>
                 <div>
                     <button><span></span>Explore</button>
@@ -42,19 +44,96 @@
             <div class="hero"></div>
         </div>
     </div>
+
     <section class="about">
-        
-        <div class="about1"></div>
+
+        <div id="about1"></div>
 
         <div class="about2">
+            <h1>
+                What we do?
+            </h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo delectus praesentium illo,
-                <br>
-                sapiente voluptate rerum nostrum, est et dolorum architecto fuga. Iste temporibus laudantium facilis eos
-                mollitia nam ratione?
+                At Aquaform, our mission is to redefine the way you experience your
+                <br>kitchen and bath spaces. We are passionate about delivering exceptional
+                <br> products that seamlessly blend style, functionality, and durability.
+                <br>From elegant faucets and luxurious sinks to sleek showers and storage solutions,
+                <br> our range of products embodies a perfect harmony of style, functionality
+                <br>and reliability.
             </p>
         </div>
     </section>
+
+    <section class="gallery">
+
+        <div id="heading">
+            <h1>Product Gallery</h1>
+        </div>
+
+        <div class="upper">
+
+            <div id="u1">
+            </div>
+
+            <div id="u2">
+            </div>
+
+            <div id="u3">
+            </div>
+
+            <div id="u4">
+            </div>
+
+        </div>
+
+        <div class="lower">
+
+            <div id="l1">
+            </div>
+
+            <div id="l2">
+            </div>
+
+            <div id="l3">
+            </div>
+
+            <div id="l4">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contactbanner">
+    <header>
+        <h1 id="contact">Contact Us</h1>
+    </header>
+    <section class="contact-form">
+        <h2 id="message">Send us a message</h2>
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook" target="_blank"></a>
+            <a href="#" class="fab fa-instagram"  target="_blank"></a>
+            <a href="#" class="fab fa-twitter"  target="_blank"></a>
+         </div>
+
+        <p>&copy; 2023 Aquaform</p>
+    </footer>
+</section>
 </body>
 
 </html>
