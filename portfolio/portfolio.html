@@ -1,11 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sanyam Jindal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
 </head>
+
 <body>
-    
+    <div id="home">
+        <div class="header">
+            <nav>
+                <img src="images/logo_.png" class="logo">
+                <ul>
+                    <li><a href="#HOME">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#TITLE">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero" id="HOME">
+            <div>
+                <p>Hello, It's Me</p>
+                <h1>Sanyam Jindal</h1>
+                <h3 class="blue">A Frontend Developer</h3>
+                <a href="#contact">
+                    <button><span class="crsr"></span>Contact</button>
+                </a>
+                <a href="Sanyam's Resume.pdf" download="Resume">
+                    <button><span class="crsr"></span>Resume</button>
+                </a>
+            </div>
+            <img src="images/about_.jpg" class="pic">
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> <img src="images/pic.png">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>
+                        I'm a final-year Computer Science student passionate about front-end development, C++ and
+                        Database Management. I excel in crafting interactive web experiences. Beyond coding, I'm a keen
+                        photographer, telling stories through my lens. Explore my portfolio to witness my technical
+                        strength. Let's connect for exciting opportunities in tech and art!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">
+                            Skills
+                        </p>
+
+                        <p class="tab-links" onclick="opentab('Experience')">
+                            Experience
+                        </p>
+
+                        <p class="tab-links" onclick="opentab('Education')">
+                            Education
+                        </p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li class="blue">HTML</li>
+                            <li>CSS</li>
+                            <li class="blue">JAVASCRIPT</li>
+                            <li>C++</li>
+                            <li class="blue">MySQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li class="blue">Aug 2023 - Sep 2023</li>
+                            <li>Web Developer Intern at Codsoft</li>
+                            <li class="blue">Sep 2023 - Oct 2023</li>
+                            <li>Web Developer Intern at Bharat Intern</li>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li class="blue">2020-2024</li>
+                            <li>Computer Science Engineering</li>
+                            <li class="blue">2018-2020</li>
+                            <li>Senior Secondary</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="title" id="TITLE">
+        <h1>
+            Project Work
+        </h1>
+    </div>
+
+    <div class="projects">
+        <div class="project-img" id="img1">
+            AQUAFORM-Landing Page
+            <br>
+            <a href="https://github.com/sanyamjindal/CODSOFT/tree/8ee878131e7c6c9e4d33ef1d030673bf70cb1b4a/landingpage"
+                target="_blank">
+                <img src="images/redirect.png" class="redirect">
+            </a>
+        </div>
+        <div class="project-img" id="img2">
+            AYTO-One
+            <br>stop solution
+            <br>
+            <a href="https://github.com/sanyamjindal/AYTO.github.io.git" target="_blank">
+                <img src="images/redirect.png" class="redirect">
+            </a>
+        </div>
+        <div class="project-img" id="img3">
+            Homepage of Netflix
+            <br>
+            <a href="https://github.com/sanyamjindal/BharatIntern/tree/6d6ac3e989ce17a4f98cfdb5aa327ffa25b711e5/Homepage%20of%20Netflix"
+                target="_blank">
+                <img src="images/redirect.png" class="redirect">
+            </a>
+        </div>
+    </div>
+
+    <div class="description">
+        <div class="description1">
+            <p>
+                Built a landing page for sanitary ware brand 'AQUAFORM' that deals in various bath and kitchen fittings.
+                This helped the business gain an online presence.
+            </p>
+        </div>
+
+        <div class="description1">
+            <p>
+                Built an e-learning website where all the top rated free courses are listed to eliminate time wastage
+                that
+                goes in looking for courses on various platforms.
+            </p>
+        </div>
+
+        <div class="description1">
+            <p>
+                Built a clone of Netflix's homepage to understand various concepts involved in Frontend Web Development.
+            </p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">
+                        Contact Me
+                    </h1>
+                    <p><ion-icon name="mail"></ion-icon>sanyamjindal105@gmail.com</p>
+                    <p> <ion-icon name="call"></ion-icon>92103-XXXXX</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sanyam-jindal-38a6ba234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG45SOqv5RAey9DSeyTRrcw%3D%3D"
+                            target="_blank" class="social">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+
+                        <a href="" class="social">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+
+                        <a href="" class="social">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" id="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>
