@@ -361,6 +361,15 @@ form #btn{
     margin-left: 0;
 }
 
+.copyright{
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #262626;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
 
 
 
